@@ -34,17 +34,19 @@
 .nav_navigation-items li {
     padding: 1rem;
     font-family: cursive;
+    display: block;
 }
 
 .nav_navigation-items a {
     background-color: rgb(37, 12, 12);
     color: rgba(255, 255, 255, 0.5);
     text-decoration: none;
-    transition-duration: 0.4s;
+    transition: 0.5s;
+    display: block;
 }
 
 .nav_navigation-items a:hover {
     color: black;
     font-weight: bold;
-    background-color: rgba(153, 133, 133, 0.4);   
+    background-color: rgba(153, 133, 133, 0.4);
 }
