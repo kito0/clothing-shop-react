@@ -2,8 +2,8 @@ import React from 'react';
 import './styles/Shop.css';
 
 const Shop = () => (
-    <div>
-        <h1>Shop</h1>
+    <div className="shop">
+        <h1>Shop is temporarily Unavailable</h1>
     </div>
 );
 

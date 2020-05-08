@@ -1,5 +1,5 @@
 .nav {
-    position: fixed;
+    position: flex;
     width: 100%;
     background: rgb(37, 12, 12);
     height: 56px;
@@ -36,9 +36,11 @@
 .nav_navigation-items a {
     color: rgba(255, 255, 255, 0.5);
     text-decoration: none;
+    transition-duration: 0.4s;
 }
 
-.nav_navigation-items a:hover,
-.nav_navigation-items a:active {
-    color: rgba(125, 194, 221, 0.5);
+.nav_navigation-items a:hover, a:active {
+    color: black;
+    font-weight: bold;
+    background-color: rgba(153, 133, 133, 0.4);
 }

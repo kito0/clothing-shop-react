@@ -2,7 +2,7 @@ import React from 'react';
 import './styles/Home.css';
 
 const Home = () => (
-    <div>
+    <div className="home">
         <h1>Home</h1>
     </div>
 );
