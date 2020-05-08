@@ -13,21 +13,11 @@ const Nav = props => (
             <div className="space"></div>
             <div className="nav_navigation-items">
                 <ul>
-                    <Link to='./shop'>
-                        <li>SHOP</li>
-                    </Link>
-                    <Link to='./lookbook'>
-                        <li>LOOKBOOK</li>
-                    </Link>
-                    <Link to='./checkout'>
-                        <li>CHECKOUT</li>
-                    </Link>
-                    <Link to='./about'>
-                        <li>ABOUT</li>
-                    </Link>
-                    <Link to='./contact'>
-                        <li>CONTACT</li>
-                    </Link>
+                    <Link to='./shop'><li>SHOP</li></Link>
+                    <Link to='./lookbook'><li>LOOKBOOK</li></Link>
+                    <Link to='./checkout'><li>CHECKOUT</li></Link>
+                    <Link to='./about'><li>ABOUT</li></Link>
+                    <Link to='./contact'><li>CONTACT</li></Link>
                 </ul>
             </div>
         </nav>

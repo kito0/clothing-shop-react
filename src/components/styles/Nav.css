@@ -16,6 +16,8 @@
     color: rgba(255, 255, 255, 0.5);
     text-decoration: none;
     font-size: 2rem;
+    font-weight: 1000;
+    font-family: fantasy;
 }
 
 .space {
@@ -31,16 +33,18 @@
 
 .nav_navigation-items li {
     padding: 1rem;
+    font-family: cursive;
 }
 
 .nav_navigation-items a {
+    background-color: rgb(37, 12, 12);
     color: rgba(255, 255, 255, 0.5);
     text-decoration: none;
     transition-duration: 0.4s;
 }
 
-.nav_navigation-items a:hover, a:active {
+.nav_navigation-items a:hover {
     color: black;
     font-weight: bold;
-    background-color: rgba(153, 133, 133, 0.4);
+    background-color: rgba(153, 133, 133, 0.4);   
 }
