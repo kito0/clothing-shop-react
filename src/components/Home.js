@@ -3,7 +3,7 @@ import './styles/Home.css';
 
 const Home = () => (
     <div className="home">
-        <h1>Home</h1>
+        <img className="home-img" src={require("../assets/home.jpg")} alt="home"/>
     </div>
 );
 
