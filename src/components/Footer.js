@@ -8,14 +8,14 @@ const Footer = () => (
         <h1 className="horizontal-line"/>
         <div className="row">
             <div className="col">
-                <p className="bold">SHOP STREETWEAR</p>
+                <p className="bold">SHOP SOUP</p>
                 <p><Link to='./shop'><li>MEN</li></Link></p>
                 <p><Link to='./shop'><li>WOMEN</li></Link></p>
                 <p><Link to='./shop'><li>KIDS</li></Link></p>
                 <p><Link to='./shop'><li>ACCESSORIES</li></Link></p>
             </div>
             <div className="col">
-                <p className="bold">ABOUT STREETWEAR</p>
+                <p className="bold">ABOUT SOUP</p>
                 <p>ABOUT US</p>
                 <p>BLOG</p>
                 <p>CAREERS</p>
@@ -41,7 +41,7 @@ const Footer = () => (
         </div>
         <h3 className="horizontal-line"/>
         <h4 className="copyright">
-            © 2020 STREETWEAR APPAREL BRANDS GROUP INTERNATIONAL INC. &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;
+            © 2020 SOUP APPAREL BRANDS GROUP INTERNATIONAL INC. &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;
             TERMS & CONDITIONS &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; PRIVACY POLICY
         </h4>
     </div>

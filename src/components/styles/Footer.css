@@ -41,6 +41,10 @@
     list-style: none;
 }
 
+.col li:visited {
+    text-decoration: none;
+}
+
 .row:after {
     content: "";
     display: table;

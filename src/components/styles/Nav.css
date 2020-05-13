@@ -1,5 +1,5 @@
 .nav {
-    position: flex;
+    position: fixed;
     width: 100%;
     background: rgb(37, 12, 12);
     height: 56px;
@@ -21,7 +21,7 @@
 }
 
 .space {
-    flex: 0.3;
+    flex: 0.45;
 }
 
 .nav_navigation-items ul {

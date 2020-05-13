@@ -7,7 +7,7 @@ const Nav = props => (
         <nav className="nav_navigation">
             <div className="nav_logo">
                 <a href="/">
-                    STREETWEAR
+                    SOUP
                 </a>
             </div>
             <div className="space"></div>
