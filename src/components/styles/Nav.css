@@ -1,8 +1,9 @@
 .nav {
     position: fixed;
     width: 100%;
-    background: rgb(37, 12, 12);
+    background: #250c0c;
     height: 56px;
+    z-index: 1;
 }
 
 .nav_navigation {
