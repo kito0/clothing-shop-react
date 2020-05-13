@@ -9,22 +9,22 @@ const Footer = () => (
         <div className="row">
             <div className="col">
                 <p className="bold">SHOP SOUP</p>
-                <p><Link to='./shop'><li>MEN</li></Link></p>
-                <p><Link to='./shop'><li>WOMEN</li></Link></p>
-                <p><Link to='./shop'><li>KIDS</li></Link></p>
-                <p><Link to='./shop'><li>ACCESSORIES</li></Link></p>
+                <p><Link to='./shop'>MEN</Link></p>
+                <p><Link to='./shop'>WOMEN</Link></p>
+                <p><Link to='./shop'>KIDS</Link></p>
+                <p><Link to='./shop'>ACCESSORIES</Link></p>
             </div>
             <div className="col">
                 <p className="bold">ABOUT SOUP</p>
-                <p>ABOUT US</p>
-                <p>BLOG</p>
-                <p>CAREERS</p>
+                <p><Link to='./about'>ABOUT US</Link></p>
+                <p><Link to='./lookbook'>LOOKBOOK</Link></p>
+                <p><Link to='./careers'>CAREERS</Link></p>
             </div>
             <div className="col">
                 <p className="bold">HELP</p>
-                <p>CONTACT US</p>
-                <p>RETURNS</p>
+                <p><Link to='./contact'>CONTACT US</Link></p>
                 <p>DELIVERY</p>
+                <p>RETURNS</p>
                 <p>LOGIN</p>
             </div>
             <div className="col">

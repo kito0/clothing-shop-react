@@ -41,8 +41,9 @@
     list-style: none;
 }
 
-.col li:visited {
+.row a {
     text-decoration: none;
+    color: black;
 }
 
 .row:after {
