@@ -66,3 +66,9 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+---------------------------------------------------------------------------------------------------------------------------------
+Image sources
+https://pixabay.com/photos/buildings-cars-city-fashion-man-1839890/
+https://www.needpix.com/photo/download/1052119/people-woman-fashion-model-beauty-green-streetwear-free-pictures-free-photos
+https://unsplash.com/s/photos/streetwear
