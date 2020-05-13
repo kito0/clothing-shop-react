@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './styles/Footer.css';
 import '../assets/payment.jpg';
 
@@ -8,10 +9,10 @@ const Footer = () => (
         <div className="row">
             <div className="col">
                 <p className="bold">SHOP STREETWEAR</p>
-                <p>MEN</p>
-                <p>WOMEN</p>
-                <p>KIDS</p>
-                <p>ACCESSORIES</p>
+                <p><Link to='./shop'><li>MEN</li></Link></p>
+                <p><Link to='./shop'><li>WOMEN</li></Link></p>
+                <p><Link to='./shop'><li>KIDS</li></Link></p>
+                <p><Link to='./shop'><li>ACCESSORIES</li></Link></p>
             </div>
             <div className="col">
                 <p className="bold">ABOUT STREETWEAR</p>
