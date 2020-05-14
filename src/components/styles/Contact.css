@@ -1,4 +1,56 @@
 .contact {
-    padding-top: 3%;
+    position: relative;
+}
+
+.contact-img {
+    width: 100%;
+}
+
+.contact-txt {
+    margin-top: 11%;
     margin-left: 2.5%;
+    margin-bottom: 0.05%;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 48px;
+}
+
+.contact-item {
+    margin-top: 1%;
+    margin-left: 2.5%;
+    margin-bottom: 5%;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 26px;
+}
+
+.contact-block {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.dropdown {
+    background-color: #555555;
+    color: #aaaaaa;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.active, .dropdown:hover {
+    background-color: #111111;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
 }
