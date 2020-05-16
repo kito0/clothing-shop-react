@@ -1,31 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
+import Accordion from 'react-bootstrap/Accordion';
+import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button'
 import './styles/Contact.css';
-
-const [faqs, setfaqs] = useState([
-    {
-        question: 'Question 1',
-        answer: 'Answer to oquestion goes here',
-        open: false
-    },
-
-    {
-        question: 'Question 2',
-        answer: 'Answer to oquestion goes here',
-        open: false
-    },
-
-    {
-        question: 'Question 3',
-        answer: 'Answer to oquestion goes here',
-        open: false
-    },
-    
-    {
-        question: 'Question 4',
-        answer: 'Answer to oquestion goes here',
-        open: false
-    }
-]);
 
 const Contact = () => (
     <div className="contact">
@@ -35,14 +12,31 @@ const Contact = () => (
             <h2 className="contact-item">For sizing, stock inquiries, or refunds: info@wearsoup.com</h2>
             <h2 className="contact-item">For business inquiries: business@wearsoup.com</h2>
             <h2 className="contact-item">For wholesale inquiries or opportunities: wholesale@wearsoup.com</h2>
+
             <h1 className="contact-txt">FAQs</h1>
-            <div className="faqs">
-                {faqs.map((faq, i) => (
-                    <div>
-                        {faq.question}
-                    </div>
-                ))}
-            </div>
+            <Accordion defaultActiveKey="0">
+                <Card>
+                    <Accordion.Toggle as={Card.Header} eventKey="0">
+                        Question 1
+                    </Accordion.Toggle>
+                    <Accordion.Collapse eventKey="0">
+                        <Card.Body>
+                            Answer to question text goes here
+                        </Card.Body>
+                    </Accordion.Collapse>
+                </Card>
+                <Card>
+                    <Accordion.Toggle as={Card.Header} eventKey="0">
+                        Question 2
+                    </Accordion.Toggle>
+                    <Accordion.Collapse eventKey="0">
+                        <Card.Body>
+                            Answer to question text goes here
+                        </Card.Body>
+                    </Accordion.Collapse>
+                </Card>
+            </Accordion>
+            
         </div>
     </div>
 );
