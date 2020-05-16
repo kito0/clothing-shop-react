@@ -54,3 +54,8 @@
     display: none;
     overflow: hidden;
 }
+
+.faq {
+    color: white;
+    margin-left: 2.5%;
+}
